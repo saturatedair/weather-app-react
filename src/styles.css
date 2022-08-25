@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./weather-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.app {
+  width: 55vw;
+  height: 30vh;
+  padding: 3rem;
+}
+.header {
+  position: absolute;
+  top: 5%;
+  left: 37.5vw;
+  font-size: 5rem;
+  color: #03264b;
+}
+.top {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.location p {
+  font-size: 7rem;
+}
+.temp h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 3rem;
+}
+
+.bottom {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.search {
+  position: absolute;
+  top: 25%;
+  left: 40vw;
+}
+
+.search input {
+  width: 20vw;
+  height: 4vh;
+  border-radius: 0.8rem;
+  padding-left: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.search input:focus {
+  outline: none !important;
+  border: 2px solid rgb(231, 180, 10);
+  box-shadow: 0 0 10px #719ece;
+}
+::placeholder {
+  color: #f8f8f8;
+}
+
+.bottom-part {
+  text-align: center;
+}
